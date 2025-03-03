@@ -1,4 +1,4 @@
-Repository for the workshop done in Codemotion Madrid 2024.
+Repository for the workshop done in Codemotion Madrid 2025.
 
 There are two folders on the project:
 
