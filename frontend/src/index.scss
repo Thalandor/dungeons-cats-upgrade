@@ -1,0 +1,58 @@
+@import "./variables.scss";
+:root {
+  font-family: dndcregular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: $text-color;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+@font-face {
+  font-family: 'dndcregular';
+  src: url('./assets/dndc-webfont.woff2') format('woff2'),
+       url('./assets/dndc-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  size-adjust: 150%;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: 50px;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+@media (prefers-color-scheme: '"" + black') {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  } 
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+    
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

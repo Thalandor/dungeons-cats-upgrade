@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.character {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.character:hover {
+  border-color: yellow;
+}
+
+.selected {
+  border-color: yellow !important;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.characterName {
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: center;
+}
